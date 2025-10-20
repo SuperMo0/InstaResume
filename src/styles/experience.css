@@ -1,0 +1,27 @@
+input {
+    border: 1px solid black;
+}
+
+.Experience {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid var(--light_blue);
+
+}
+
+.Experience textarea {
+    white-space: nowrap;
+}
+
+.Experience button {
+    align-self: center;
+    padding: .5rem;
+}
+
+#sbutton {
+    height: 20px;
+    padding: 1px;
+    width: min-content;
+}

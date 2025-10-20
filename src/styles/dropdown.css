@@ -1,0 +1,21 @@
+.dropdown {
+    background-color: rgb(172, 203, 228);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.dropdown:hover {
+    background-color: rgb(150, 192, 226);
+}
+
+.dropdown img {
+    margin-left: auto;
+    width: 30px;
+}
+
+.dropdown:focus {
+    background-color: rgb(150, 192, 226);
+}
